@@ -1,0 +1,35 @@
+// Create 2 variables: name, password
+// name value is: "admin", password value is: "secretPassword"
+// Make the following comparison:
+// -> If name is "admin" and if password is "secretPassword" -> write:  "Welcome back"
+// -> If the name is "ivan" and if the password is "secretPassword" -> write: "Welcome Ivan"
+// If nothing is offered -> write: "Wrong password or name"
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>If</title>
+</head>
+<body>
+
+<script>
+
+  let name = "ivan"
+  let password = "secretPassword"
+
+if (name === "admin" && password === "secretPassword") {
+    console.log("Welcome back");
+} else if (name === "ivan" && password === "secretPassword") {
+    console.log("Welcome Ivan");
+} else {
+    console.log("Wrong password or name");
+}
+  
+</script>
+  
+</body>
+</html>
